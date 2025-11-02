@@ -1,0 +1,6 @@
+TAXI_OUT: verificar se média anteriores de TAXI_OUT influencia no atraso ou não dos voos.
+WHEELS_OF: mesma ideia acima mas verificar se a média de tempo entre o previsto para decolocagem e o de fato decolado influência nos proximos atrasados
+ELAPSED_TIME / SCHEDULED_TIMES histórico: mesma ideia que anteriores
+DIVERTED: mesma ideia. Quantas vezes a rota foi desviada nos ultimos 30 dias
+CANCELLED: número de cancelmaento anteriores
+REGIONAL: assumir que dados ausentes de geolocalização indica aeroportos regionais ou menores. Criar classe, aeroporto regional (True, para dados ausentes de geolocalização)
