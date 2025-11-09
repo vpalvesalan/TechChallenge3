@@ -1,2 +1,9 @@
 pandas
 scipy
+pyarrow
+matplotlib
+seaborn
+plotly
+scikit-learn
+nbformat
+statsmodels
