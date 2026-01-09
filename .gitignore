@@ -3,3 +3,9 @@
 \venv
 *.cfg
 *.DS_Store
+*.pdf
+*.tsv
+*.tfevents
+*.json
+*.csv
+*.cbm
