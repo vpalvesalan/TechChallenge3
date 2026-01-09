@@ -14,14 +14,14 @@ A solução visa auxiliar na **gestão proativa de conexões** e alocação de r
 
 O desenvolvimento foi dividido em 4 etapas principais. Abaixo você encontra o link para cada notebook e um resumo do seu conteúdo:
 
-* **[1_EDA.ipynb](./1_EDA.ipynb)** **Limpeza e Preparação de Dados:** Foca na ingestão dos dados brutos, tratamento de valores nulos, conversão de tipos e criação do dataset base limpo (`df_limpo_com_features.parquet`).
+* **[1_EDA.ipynb](notebooks/1_EDA.ipynb)** **Limpeza e Preparação de Dados:** Foca na ingestão dos dados brutos, tratamento de valores nulos, conversão de tipos e criação do dataset base limpo (`df_limpo_com_features.parquet`).
 
-* **[2_EDA_visuals.ipynb](./2_EDA_visuals.ipynb)** **Análise Exploratória e Baseline:** Aprofunda na análise visual das variáveis (sazonalidade, horários), engenharia de features (como taxas históricas de rotas) e estabelece um modelo **Baseline (Regressão Logística)** para comparação de performance.
+* **[2_EDA_visuals.ipynb](notebooks/2_EDA_visuals.ipynb)** **Análise Exploratória e Baseline:** Aprofunda na análise visual das variáveis (sazonalidade, horários), engenharia de features (como taxas históricas de rotas) e estabelece um modelo **Baseline (Regressão Logística)** para comparação de performance.
 
-* **[3_Modelo_Supervissionado.ipynb](./3_Modelo_Supervissionado.ipynb)** **Modelagem Preditiva Avançada:** Treinamento e avaliação de modelos de Gradient Boosting (**LightGBM** e **CatBoost**). Inclui a análise de *Feature Importance*, comparação de métricas (AUC, Recall, F1) e serialização dos modelos finais.
+* **[3_Modelo_Supervisionado.ipynb](notebooks/3_Modelo_Supervisionado.ipynb)** **Modelagem Preditiva Avançada:** Treinamento e avaliação de modelos de Gradient Boosting (**LightGBM** e **CatBoost**). Inclui a análise de *Feature Importance*, comparação de métricas (AUC, Recall, F1) e serialização dos modelos finais.
     * *Modelo Vencedor:* LightGBM (AUC ~0.94).
 
-* **[4_Modelo_nao_supervisionado.ipynb](./4_Modelo_nao_supervisionado.ipynb)** **Clusterização de Aeroportos:** Aplicação de algoritmos não supervisionados (**K-Means** e **DBSCAN**) para segmentar aeroportos baseados em eficiência operacional (atrasos, tempo de táxi e volume), identificando *hubs* congestionados e anomalias operacionais.
+* **[4_Modelo_nao_supervisionado.ipynb](notebooks/4_Modelo_nao_supervisionado.ipynb)** **Clusterização de Aeroportos:** Aplicação de algoritmos não supervisionados (**K-Means** e **DBSCAN**) para segmentar aeroportos baseados em eficiência operacional (atrasos, tempo de táxi e volume), identificando *hubs* congestionados e anomalias operacionais.
 
 ---
 
